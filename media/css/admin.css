@@ -1,0 +1,55 @@
+.admin-login-box {
+    float: left;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.left {
+    width: 200px;
+    float: left;
+    margin-top: 50px;
+}
+.left-menu li  {
+    cursor: pointer;
+}
+.content {
+    float: left;
+    min-width: 700px;
+    max-width: 1000px;
+    border: 1px solid #ddd;
+    min-height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.gallery-item {
+    list-style: none;
+    float: left;
+    width: 145px;
+    margin-right: 10px;
+}
+.add-new-serial {
+    margin-top: 20px;
+}
+.add-new-serial-title {
+    color: rgba(82,168,236,0.8);
+    margin-bottom: 20px;
+}
+.list_serials {
+    margin-top: 20px;
+}
+.list_seasons_title {
+    color: rgba(82,168,236,0.8);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.series-box {
+    margin-top: 20px;
+}
+#relise-page {
+    width: 700px;
+    min-height: 500px;
+}
+#news-page {
+    width: 700px;
+    min-height: 500px;
+}

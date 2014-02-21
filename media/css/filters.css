@@ -1,0 +1,14 @@
+.filter-by-genre {
+    float: left;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.filter-genre-title {
+    font-family: PT sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}

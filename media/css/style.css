@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { background-color: #eee; }
+
+/* Top Menu */
+html body#body .navbar-inner { background-color: rgba(0, 0, 0, 1); background-image: none; border: none; }
+html body#body .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus { background-color: transparent; }
+html body#body .navbar .nav>li>a { color: #fff; text-decoration: none; font-size: 17px; font-family: 'Lobster', cursive; text-shadow: none; }
+.top-menu-item { margin-top: 12px; }
+.sidebar-icon-search { float: left; margin-left: -23px; z-index: 9999; position: relative; display: block; margin-top: 7px; cursor: pointer; }
+html body .sidebar-live-search { float: left; padding-right: 30px; width: 170px; margin-left: 5px; }
+html body#body .top-menu-left-list { float: left; }
+html body#body .top-menu-right-list { float: right; }
+html body#body .top-menu-search { margin: 0; }
+.search-block { margin-top: 30px; }
+.top-menu-auth-label { color: #fff; margin-right: 10px; cursor: pointer; font-size: 11px; float: right; visibility: hidden; }
+
+/* Slider */
+html body#body .carousel-control { margin-top: 35px; }
+
+/* Content Page */
+.homepage-content { min-height: 400px; }
+.mark-container { background-color: #fff; box-shadow: 0 0 14px #ccc; margin-top: -20px; padding: 20px; }
+.homepage-aninice-about { background-color: #eee; padding: 15px; font-size: 15px; color: #000000; }
+.home-block { float: left; width: 100%; margin-top: 30px; }
+.home-block-left { float: left; min-height: 300px; border-right: 1px solid #eee; }
+.home-block-right { float: right; min-height: 300px; }
+.popular-anime { float: left; }
+.news-anime { float: left; margin-top: 30px; }
+.home-anime-label { color: #000; font-weight: bold; font-size: 17px; }
+.popular-anime-item { width: 115px; padding: 10px; float: left; min-height: 200px; }
+.no-loaded-pane { width: 97%; min-height: 100px; background-color: #eee; float: left; }
+.find-anime-panel { margin-top: 30px; float: left; }
+.find-panel-loader { margin-left: 38%; margin-top: 38px; }
+.filter-genre-box { float: left; width: 100%; margin-bottom: 15px; }
+.find-anime-block { float: left; width: 100%; overflow: hidden; height: 410px; }
+#find_panel_show_all { float: left; width: 300px; margin-left: 21%; margin-top: 15px; }
+.popular-anime-item a span { width: 100%; float: left; }
+.line-new-anime { float: left; width: 100%; padding-top: 20px; padding-bottom: 20px; padding-left: 10px; padding-right: 10px;}
+.banner { float: left; width: 100%; margin-top: 30px; }
+.bottom-seo-text { margin-top: 30px; background-color: #eee; float: left; padding: 20px 0; height: 100%; width: 100%; font-size: 11px; font-family: 'Open Sans', sans-serif; color: #4A4A4A; text-align: center; }
+
+/* New Anime Line */
+.newanime-block { float: left; width: 100%; }
+.newanime-block-item { float: left; margin-right: 20px; width: 130px; }
+.newanime-block-item img { border: 5px solid #000; }
+.newanime-block-item img:hover { border: 5px solid #006fda; }
+.newanime-title { color: #fff; text-shadow: 0 -1px 3px #202020; font-size: 16px; margin-bottom: 10px; margin-left: 20px; }
+.newanime-item-animename { display: block; background: rgba(0,0,0,0.90); color: #ffffff; position: absolute; width: 130px; min-height: 40px; margin-left: 5px; margin-top: -75px; }
+
+/* Rating Block */
+.home-block-right { float: right; min-height: 300px; }
+.rating-title { float: left; width: 100%; color: #000; font-weight: bold; font-size: 18px; }
+.rating-item-box { float: left; width: 100%; margin-top: 8px; }
+.rating-item-animename { width: 170px; float: left; font-size: 12px; }
+.rating-item-value { float: right; width: 30px; text-align: right; color: #777; font-size: 12px; }
+.top-left-block { margin-top: 30px; float: left; }
+.rating-left-block { float: left; }
+.hot-ten-item-animename { width: 220px; float: left; font-size: 12px; }
+
+/* About Us */
+.about-us-page { margin-top: 60px; }
+.about-us-block { float: left; width: 100%; background-color: #ffffff; }
+.about-us-content { float: left; }
+.about-us-content span { display: block; width: 680px; float: left; margin-left: 10px; font-size: 15px; margin-top: 10px; margin-bottom: 10px; }
+.about-us-litebox { padding: 10px; padding-left: 0; padding-right: 0; text-align: center; float: left; width: 100%; background: #EDF4F9; font-weight: bold; margin-top: 10px; font-size: 18px; display: block; }
+
+/* Footer */
+.footer-block { padding: 20px; }
+.footer-see-block { float: left; }
+.footer-social-block { float: left; margin-left: 250px; }
+.footer-aninice-block { float: right; }
+.footer-label { font-weight: bold; margin-left: 8px; }
+.send-mail-input { min-width: 510px; min-height: 150px; }
+.social-icon-item a { margin-left: 45px; }
+
+/* New Btn */
+.newbtn { display: inline-block; padding: 8px 12px; margin-bottom: 0; font-size: 14px; font-weight: 500; line-height: 1.428571429; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; border: 1px solid transparent; border-radius: 4px; }
+.newbtn-default { color: #ffffff; background-color: #474949; border-color: #474949; }
+.newbtn-default:hover { color: #ffffff; text-decoration: none; background-color: #3a3c3c; border-color: #2e2f2f; }
+.newbtn-warning { color: #ffffff; background-color: #f0ad4e; border-color: #eea236; }
+.newbtn-warning:hover { color: #ffffff; background-color: #ed9c28; border-color: #d58512; }
+.newbtn-primary { color: #ffffff; background-color: #428bca; border-color: #357ebd; }
+.newbtn-primary:hover { color: #ffffff; background-color: #3276b1; border-color: #285e8e; }
+
+/* Gradients */
+.load-new-anime-line {
+    background: rgb(102,47,13); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(102,47,13,1) 0%, rgba(0,0,0,1) 41%, rgba(0,0,0,1) 58%, rgba(0,15,84,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(102,47,13,1)), color-stop(41%,rgba(0,0,0,1)), color-stop(58%,rgba(0,0,0,1)), color-stop(100%,rgba(0,15,84,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, rgba(102,47,13,1) 0%,rgba(0,0,0,1) 41%,rgba(0,0,0,1) 58%,rgba(0,15,84,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, rgba(102,47,13,1) 0%,rgba(0,0,0,1) 41%,rgba(0,0,0,1) 58%,rgba(0,15,84,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, rgba(102,47,13,1) 0%,rgba(0,0,0,1) 41%,rgba(0,0,0,1) 58%,rgba(0,15,84,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg, rgba(102,47,13,1) 0%,rgba(0,0,0,1) 41%,rgba(0,0,0,1) 58%,rgba(0,15,84,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#662f0d', endColorstr='#000f54',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.inset-box-shadow {
+    -moz-box-shadow: inset 2px 2px 22px -5px #000;
+    -webkit-box-shadow: inset 2px 2px 22px -5px #000;
+    box-shadow: inset 2px 2px 22px -5px #000;
+}

@@ -1,0 +1,114 @@
+.anime-blog-block {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+.anime-blog-title {
+    margin-left: 10px;
+    float: left;
+    display: block;
+    width: 550px;
+}
+.blog-anime-block {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    font-family:  'Open Sans', sans-serif;
+    line-height: 2em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    width: 95%;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-style: normal;
+}
+.blog-anime-box {
+    padding: 10px;
+    color: #666666;
+    overflow: hidden;
+    font-family:  'Open Sans', sans-serif;
+    line-height: 2em;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+.blog-post-title {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -1px;
+}
+.blog-post-title a { color: #353737; }
+.blog-anime-post-header {
+    border: 1px solid #d2d2d2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: #eee;
+    padding: 5px 10px;
+}
+.blog-anime-img {
+    display: block;
+    padding: 4px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.blog-anime-post-content div span a:hover { text-decoration: none; }
+.serial-box {
+    float: left;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+.serial-box-title {
+    display: block;
+    float: left;
+    margin-left: 5px;
+    width: 500px;
+}
+.serial-box-seaon-title {
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+.serial-preview {
+    float: left;
+    width: 220px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.serial-desc {
+    float: left;
+    width: 440px;
+}
+.serial-important-info {
+    float: left;
+    width: 100%;
+}
+.serial-desc-text {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.serial-season-item {
+
+}
+.serial-season-box {
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+html body .home-block-right { margin-top: 54px; }

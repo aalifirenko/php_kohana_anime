@@ -1,0 +1,4 @@
+{"playlist":[
+{"comment":"test","file":"http://anime-nice.local/media/player/test.mp4"},
+{"comment":"test2","file":"http://anime-nice.local/media/player/test.mp4"}
+]}

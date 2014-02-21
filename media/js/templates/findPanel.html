@@ -1,0 +1,56 @@
+<ul class="nav nav-tabs" id="findAnimePanel">
+    <li class="active"><a href="#findbygenre" data-type="genre">По Жанру</a></li>
+    <li><a href="#findbypopular" data-type="popular">Популярное</a></li>
+    <li><a href="#findbyhits" data-type="hits">Хиты</a></li>
+    <li><a href="#findbyongoing" data-type="ongoing">Онгоинги</a></li>
+    <li><a href="#findbyaninice" data-type="aninice">Озв.AniNice</a></li>
+    <li><a href="#findbysub" data-type="sub">С Субтитрами</a></li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane active" id="findbygenre">
+        <div class="find-panel-loader">
+            <img src="/media/image/loader.gif" />
+        </div>
+    </div>
+
+    <div class="tab-pane" id="findbypopular">
+        <div class="find-panel-loader">
+            <img src="/media/image/loader.gif" />
+        </div>
+    </div>
+
+    <div class="tab-pane" id="findbyhits">
+        <div class="find-panel-loader">
+            <img src="/media/image/loader.gif" />
+        </div>
+    </div>
+
+    <div class="tab-pane" id="findbyongoing">
+        <div class="find-panel-loader">
+            <img src="/media/image/loader.gif" />
+        </div>
+    </div>
+
+    <div class="tab-pane" id="findbyaninice">
+        <div class="find-panel-loader">
+            <img src="/media/image/loader.gif" />
+        </div>
+    </div>
+    <div class="tab-pane" id="findbysub">
+        <div class="find-panel-loader">
+            <img src="/media/image/loader.gif" />
+        </div>
+    </div>
+</div>
+<script type="text/template" id="genrePanel">
+    <div class="filter-genre-box">
+        <button class="btn btn-info filter-genre-btn" data-genre="comedy" data-loading-text="Загрузка...">Комедия</button>
+        <button class="btn btn-info filter-genre-btn" data-genre="mystic" data-loading-text="Загрузка...">Мистика</button>
+        <button class="btn btn-info filter-genre-btn" data-genre="romantic" data-loading-text="Загрузка...">Романтика</button>
+        <button class="btn btn-info filter-genre-btn" data-genre="drama" data-loading-text="Загрузка...">Драма</button>
+        <button class="btn btn-info filter-genre-btn" data-genre="detective" data-loading-text="Загрузка...">Детектив</button>
+        <button class="btn btn-info filter-genre-btn" data-genre="boevik" data-loading-text="Загрузка...">Боевик</button>
+        <button class="btn btn-info filter-genre-btn" data-genre="fantastic" data-loading-text="Загрузка...">Фантастика</button>
+    </div>
+</script>
